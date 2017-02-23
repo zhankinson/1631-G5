@@ -90,13 +90,13 @@ class MsgEncoder{
     /* Default of delimiter in system is $$$ */
     private final String delimiter="$$$";
 
-    public MsgEncoder(){
+    public MsgEncoder(OutputStream out) throws IOException {
+       printOut= new PrintStream(out);
     }
 
 /* Encode the Key Value List into a string and Send it out */
 
-    public void sendMsg(KeyValueList kvList, OutputStream out) throws IOException{
-        PrintStream printOut= new PrintStream(out);
+    public void sendMsg(KeyValueList kvList) throws IOException{
         if (kvList==null) return;
         String outMsg= new String();
         for(int i=0; i<kvList.size();i++){
@@ -160,38 +160,80 @@ Set up a socket server waiting for the remote to connect.
 public class InterfaceServer
 {
 
-    public static final int port=7999;
+    public static final int port=53217;
+
+    private static KeyValueList record = new KeyValueList();
+    private static KeyValueList alert = new KeyValueList();
 
     public static void main(String[] args) throws Exception
     {
-        ServerSocket server = new ServerSocket(port);
 
-    /*
-    You need to create your component here
-    */
+        ComponentBase compMy = new MyComponent();
 
-        ComponentBase compMy= new MyComponent();
-        Socket client = server.accept();
-        try{
-            MsgDecoder mDecoder= new MsgDecoder(client.getInputStream());
-            MsgEncoder mEncoder= new MsgEncoder();
-            KeyValueList kvInput,kvOutput;
-            do
-            {
-                kvInput=mDecoder.getMsg();
-                if (kvInput!=null) {
-                    System.out.println("Incomming Message:\n");
-                    System.out.println(kvInput);
-                    KeyValueList kvResult=compMy.processMsg(kvInput);
-                    System.out.println("Outgoing Message:\n");
-                    System.out.println(kvResult);
-                    mEncoder.sendMsg(kvResult,client.getOutputStream());
+    
+        while(true){
+            try{
+
+                Socket client = connect();
+                System.out.println("Connected to server");
+                
+                MsgDecoder mDecoder= new MsgDecoder(client.getInputStream());
+                MsgEncoder mEncoder= new MsgEncoder(client.getOutputStream());
+
+                KeyValueList conn = new KeyValueList();
+                conn.addPair("MessageType", "Connect");
+                conn.addPair("Role", "Basic");
+                conn.addPair("Name", "My First Component");
+                conn.addPair("Scope", "SIS.Scope1");
+                mEncoder.sendMsg(conn);
+                System.out.println("Sent message to port");
+                initRecord();
+
+                KeyValueList kvInput,kvOutput;
+                do
+                {
+                    System.out.println("Listening for message...");
+                    kvInput=mDecoder.getMsg();
+                    if (kvInput!=null) {
+                        System.out.println("Incoming Message:\n");
+                        System.out.println(kvInput);
+                        KeyValueList kvResult=compMy.processMsg(kvInput);
+                        System.out.println("Outgoing Message:\n");
+                        System.out.println(kvResult);
+                        mEncoder.sendMsg(kvResult);
+                    }
                 }
+                while (kvInput!=null);
             }
-            while (kvInput!=null);
+            catch (SocketException e){
+                System.out.println("Connection was Closed by Client");
+            }
         }
-        catch (SocketException e){
-            System.out.println("Connection was Closed by Client");
-        }
+    }
+
+
+    private static Socket connect() throws IOException {
+        Socket socket = new Socket("127.0.0.1", port);
+        return socket;
+    }
+
+    private static void initRecord()
+    {
+        record.addPair("Scope", "SIS.Scope1");
+        record.addPair("MessageType", "Reading");
+        record.addPair("Sender", "My Component");
+
+        // Receiver may be different for each message, so it doesn't make sense
+        // to set here
+        // record.addPair("Receiver", "");
+
+        alert.addPair("Scope", "SIS.Scope1");
+        alert.addPair("MessageType", "Alert");
+        alert.addPair("Sender", "My Component");
+        alert.addPair("Purpose", "TempAlert");
+
+        // Receiver may be different for each message, so it doesn't make sense
+        // to set here
+        // alert.putPair("Receiver", "");
     }
 }

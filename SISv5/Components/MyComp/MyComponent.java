@@ -25,9 +25,9 @@ public class MyComponent implements ComponentBase{
 
 /* just a trivial example */
 
-    private void doAuthentication(String first,String last,String passwd){
+    private void parseInfo(String first,String last,String passwd){
 
-        if (first.equals("xin")&&last.equals("li")&&passwd.equals("xl123"))
+        if (first.equals("joe")&&last.equals("fox")&&passwd.equals("711"))
             state=success;
         else
             state=failure;
@@ -37,8 +37,8 @@ public class MyComponent implements ComponentBase{
 
     public KeyValueList processMsg(KeyValueList kvList){
         int MsgID=Integer.parseInt(kvList.getValue("MsgID"));
-        if (MsgID!=0) return null;
-        doAuthentication(kvList.getValue("FirstName"),kvList.getValue("LastName"),kvList.getValue("passwd"));
+        //if (MsgID!=0) return null;
+        parseInfo(kvList.getValue("FirstName"),kvList.getValue("LastName"),kvList.getValue("passwd"));
         KeyValueList kvResult = new KeyValueList();
         kvResult.addPair("MsgID","1");
         kvResult.addPair("Description","Authentication Result");
@@ -55,5 +55,4 @@ public class MyComponent implements ComponentBase{
         }
         return kvResult;
     }
-
 }

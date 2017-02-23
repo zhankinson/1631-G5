@@ -1,0 +1,14 @@
+<Msg>
+	<Item>
+        <Key>FirstName</Key>
+        <Value>joe</Value>
+    </Item>
+    <Item>
+        <Key>LastName</Key>
+        <Value>fox</Value>
+    </Item>
+    <Item>
+        <Key>passwd</Key>
+        <Value>711</Value>
+    </Item>
+</Msg>
