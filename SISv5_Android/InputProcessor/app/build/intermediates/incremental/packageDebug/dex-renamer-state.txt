@@ -1,0 +1,4 @@
+#Wed Feb 01 17:43:24 EST 2017
+base.0=/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/res/merged/debug/menu/global.xml",
+        "source": "/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/src/main/res/menu/global.xml"
+    },
+    {
+        "merged": "/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/res/merged/debug/menu/bletest.xml",
+        "source": "/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/src/main/res/menu/bletest.xml"
+    },
+    {
+        "merged": "/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/src/main/res/menu/main.xml"
+    }
+]

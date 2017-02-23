@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_2bfc7cd6c6730ccd092301c1516e6515c350cbfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_be367bd429a7073cf574c1dc0a276198e885953c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_b33cf19642bbd7483d83cf831b83c0cfbdea9338.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_47b92e456c51ab166c618e8afb9dbb5dde9d2141.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f7b29fefd1e44442a09d34f8df039eac871530a">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/instant-run_b61fa67424802fb4bd15cf3c657feb9b2b3e9e3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_5dc5ad536f886ac36d39163e8b6599c7a150ec48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_2baaafdb56077e65196cea9413dce561e24ff2b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_a1feb2584b9e49616e30af97371029afdcb5d969.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_ddc4fb91382d14ad4f0048d41e4410770c8f7b18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_acf90a8114ccba33ba3f54edd817731c1e53b1b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_c3b593ace5daa28e9a7a043bc2bbb7ac6ca4a8c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_da69869ea77737757ab402f7a993a63a73fb142d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_401b39eedd02910fc4e44ecf16b74d44a78f1d73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.0_7db6ca65066845999be0b9066fc834e08b4f54c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.0_5788a6da6dc50ed316903467de2ec620c0d2d746.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_8601491d9b0fdeecefd6c9247dc968cbc943edb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cbddd52e220327e5f9b1fe3ebf4fb74e404b36a1">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_295908d90bd96e99bb03eb18dd2fd090c4b76d91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_f031439b092b9edbd9b40dbcf0441e66e25d6fa2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_a2e66a109d6983cb3636bb4023f9a205e5cda0e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_a220f86d69c5b93e54ac915e4392e87636c4d4fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_34c374434eec8079139911c7d0fe7d392d6d34b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_5561be53b410d735fe23d8d5e8fc927f4649e749.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/zzn/Desktop/TDR Work/SISv5_Android/Chat/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.0_8b096ae25164c0d132704f44b5c2c1fb0f6bbd34.jar" />
+    </item>
+
+</items>

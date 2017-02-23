@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TDR</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="searching">Searching....</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_section1">My Account</string>
+    <string name="title_section2">Feedback</string>
+    <string name="title_section3">About</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="server_ip_value">192.168.1.1</string>
+    <string name="server_ip">Server IP</string>
+    <string name="server_port_value">8000</string>
+    <string name="server_port">Server Port</string>
+
+</resources>
